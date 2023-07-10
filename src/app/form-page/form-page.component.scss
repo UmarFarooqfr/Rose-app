@@ -161,7 +161,7 @@
 .examination-request {
   margin-top: 10px;
   width: 100%;
-  height: 250px;
+  height: 170px;
   .examination-request-heading {
     width: 98%;
     border-bottom: 2px solid #ee2374;
@@ -235,14 +235,16 @@
       }
     }
   }
-
 }
-.reason-procdure-container{
+
+.reason-procdure-container {
   width: 100%;
-  height:100px ;
+  height: 150px;
   display: flex;
   justify-content: center;
-  .reason-procdure{
+//   background-color: red
+  margin-bottom: 10px;
+  .reason-procdure {
     width: 95%;
     height: 100%;
     .procedure-heading {
@@ -263,25 +265,18 @@
         }
       }
     }
-    .checkbox-setion-1{
-      margin-top: 10px;
-      margin-left: 20px;
-display: flex;
-width:90%;
-flex-direction: row;
-justify-content: space-between;
+    .procedure-checkbox-inner{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin-left: 40px;
+        margin-top: 20px;
+        justify-content: space-between;
+        .checkbox-setion-1{
+            display: flex;
+            flex-direction: column;
+        }
     }
-    .checkbox-setion-2{
-      margin-top: 10px;
-      margin-left: 20px;
-display: flex;
-width:82%;
-flex-direction: row;
-justify-content:space-between;
-
-    }
-
-
   }
 }
 .concern-site{
